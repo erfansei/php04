@@ -1,7 +1,7 @@
 <?php
 function renderProducts($nameP,$desc,$st,$cl)
 {
-    $html = '<div class="bg-slate-200 border-rose-500">';
+    $html = '<div class="bg-slate-200">';
     $html .= '<div class="text-center font-sans">';
     $html .= "<h1 class='font-bold'>{$nameP}</h1>";
     $html .= '</div>';
