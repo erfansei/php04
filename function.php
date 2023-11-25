@@ -9,10 +9,10 @@ function renderProducts($nameP,$desc,$st,$cl)
     $html .= "<p>توضیحات : {$desc}</p>";
     $html .= '</div>';
     $html .= '<div class="">';
-    $html .= "<span>{$st}</span>";
+    $html .= "<br><span>موجودی :{$st}</span>";
     $html .= '</div>';
     $html .= '<div class="flex">';
-    $html .= "<span>{$cl}</span>";
+    $html .= "<span>رنگ ها:{$cl}</span>";
     $html .= '</div>';
     $html .= '</div>';
 
