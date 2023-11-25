@@ -40,17 +40,19 @@
         echo renderProducts($_POST['p_name'],$_POST['p_description'],$_POST['p_stock'],null);
     }
     ?>
-    <form class="bg-slate-500 max-w-40 text-center" method="POST" action="">
-        <input name="p_name" type="text" placeholder="Product Name"/>
+    <br>
+    <form class="bg-slate-100 text-center" method="POST" action="">
+        <br>
+        <input class="rounded-lg" name="p_name" type="text" placeholder="Product Name"/>
         <br>
         <br>
-        <input name="p_description" type="text" placeholder="Description"/>
+        <input class="rounded-lg" name="p_description" type="text" placeholder="Description"/>
         <br>
         <br>
-        <input name="p_stock" type="number" placeholder="Stock"/>
+        <input class="rounded-lg" name="p_stock" type="number" placeholder="Stock"/>
         <br>
         <br>
-        <input type="submit" text="Submit"/>
+        <input class="bg-rose-500 rounded-lg text-white p-1" type="submit" text="Submit"/>
     </form>
 </body>
 
