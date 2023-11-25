@@ -43,13 +43,13 @@
     <br>
     <form class="bg-slate-100 text-center" method="POST" action="">
         <br>
-        <input class="rounded-lg" name="p_name" type="text" placeholder="Product Name"/>
+        <input class="rounded-lg p-1" name="p_name" type="text" placeholder="Product Name"/>
         <br>
         <br>
-        <input class="rounded-lg" name="p_description" type="text" placeholder="Description"/>
+        <textarea class="rounded-lg p-4" placeholder="Description" name="p_description"></textarea>
         <br>
         <br>
-        <input class="rounded-lg" name="p_stock" type="number" placeholder="Stock"/>
+        <input class="rounded-lg p-1" name="p_stock" type="number" placeholder="Stock"/>
         <br>
         <br>
         <input class="bg-rose-500 rounded-lg text-white p-1" type="submit" text="Submit"/>
