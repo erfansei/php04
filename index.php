@@ -25,19 +25,19 @@
         echo "<br>";
     }
     if($_SERVER['REQUEST_METHOD'] == "POST"){
-        $form = '<div>';
-        $form .= '<div class="text-center font-sans">';
-        $form .= "<h1 class='font-bold'>{$_POST['p_name']}</h1>";
-        $form .= '</div>';
-        $form .= '<div class="text-center">';
-        $form .= "<p>{$_POST['p_description']}</p>";
-        $form .= '</div>';
-        $form .= '<div class="text-center">';
-        $form .= "<span>{$_POST['p_stock']}</span>";
-        $form .= '</div>';
-        $form .= '</div>';
-        echo $form;
-        // echo renderProducts($_POST['p_name'],$_POST['p_description'],$_POST['p_stock'],$_POST['p_color']);
+        // $form = '<div>';
+        // $form .= '<div class="text-center font-sans">';
+        // $form .= "<h1 class='font-bold'>{$_POST['p_name']}</h1>";
+        // $form .= '</div>';
+        // $form .= '<div class="text-center">';
+        // $form .= "<p>{$_POST['p_description']}</p>";
+        // $form .= '</div>';
+        // $form .= '<div class="text-center">';
+        // $form .= "<span>{$_POST['p_stock']}</span>";
+        // $form .= '</div>';
+        // $form .= '</div>';
+        // echo $form;
+        echo renderProducts($_POST['p_name'],$_POST['p_description'],$_POST['p_stock'],null);
     }
     ?>
     <form class="bg-slate-500 max-w-40 text-center" method="POST" action="">

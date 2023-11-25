@@ -12,7 +12,7 @@ function renderProducts($nameP,$desc,$st,$cl)
     $html .= "<br><span>موجودی :{$st}</span>";
     $html .= '</div>';
     $html .= '<div class="text-center">';
-    $html .= "<p>رنگ ها :{$cl}</p>";
+    $html .= "<p>{$cl}</p>";
     $html .= '</div>';
     $html .= '</div>';
 
